@@ -1,12 +1,12 @@
 body {
-	background-image: url(images/photo.jpeg);
+	background-image: url(../../images/photo.jpeg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
 }
 
-div {
+#listDiv {
 	position: absolute;
 	top: 15%;
 	left: 10%;
@@ -27,4 +27,9 @@ ul {
 
 .selected {
 	color: green;
+}
+
+footer {
+	position: relative;
+	margin-top: 900px;
 }
