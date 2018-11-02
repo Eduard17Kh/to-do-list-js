@@ -1,0 +1,30 @@
+body {
+	background-image: url(images/photo.jpeg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+div {
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	border: 2px solid black;
+	padding: 2px;
+	padding-right: 500px;
+}
+
+ul {
+	font-size: 24px;
+	font-family: 'Pacifico', cursive;
+}
+
+.done {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.selected {
+	color: green;
+}
